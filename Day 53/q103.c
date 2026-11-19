@@ -30,10 +30,10 @@ int main()
     int totalsum=0;
     int leftsum=0;
     int pivot=-1;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<=n;i++){
         totalsum=totalsum+num[i];
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<=n;i++){
        int rightsum=totalsum-leftsum-num[i];
         if(rightsum==leftsum){
             pivot=i;
